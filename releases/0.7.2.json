@@ -1,0 +1,24 @@
+{
+  "version": "0.7.2",
+  "channel": "prerelease",
+  "installer": "Lumos-Electron-Setup-0.7.2.exe",
+  "bytes": 717771801,
+  "sha256": "7bac52dfa16037850a32528f26f7fd810c9a542f6cfce7bb70ddd0fd0ccce453",
+  "releaseUrl": "https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.7.2",
+  "checks": {
+    "launcherTests": 65,
+    "officialRuntimeFiles": 248,
+    "faceFiles": 15,
+    "voiceFiles": 15,
+    "packagedUi": true,
+    "voiceModeUi": true,
+    "packagedSourceMatches": true,
+    "installerArchive": true,
+    "updateSignature": true
+  },
+  "limitations": [
+    "Real microphone latency has not been independently benchmarked end to end",
+    "Installed NSIS self-update still needs end-to-end validation"
+  ],
+  "createdAt": "2026-11-19T17:48:54.702Z"
+}
