@@ -1,0 +1,30 @@
+{
+  "version": "0.7.3",
+  "channel": "prerelease",
+  "installer": "Lumos-Electron-Setup-0.7.3.exe",
+  "bytes": 716380376,
+  "sha256": "cdc767d2a0239f6b5adcd563f9897ac7ef4533833309773f5eb71da5cbd80d93",
+  "releaseUrl": "https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.7.3",
+  "checks": {
+    "launcherTests": 70,
+    "serverApiTests": 7,
+    "officialRuntimeFiles": 248,
+    "faceFiles": 15,
+    "voiceAssets": 15,
+    "packagedUi": true,
+    "packagedSourceMatches": true,
+    "installerArchive": true,
+    "updateSignature": true,
+    "manualInstalledUpgrade": true,
+    "settingsPreserved": true,
+    "discordAcknowledged": true,
+    "livePlayerCount": true
+  },
+  "limitations": [
+    "Masterlist player counts may lag the server heartbeat; stale data is hidden",
+    "Automatic installed NSIS self-update and health receipt still need end-to-end validation",
+    "Real microphone end-to-end test remains pending",
+    "New running-game presence was not retested in this session"
+  ],
+  "createdAt": "2026-11-20T14:57:00.4725719Z"
+}
