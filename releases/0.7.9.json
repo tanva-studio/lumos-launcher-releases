@@ -1,0 +1,45 @@
+{
+  "version": "0.7.9",
+  "channel": "preview",
+  "releaseUrl": "https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.7.9",
+  "bytes": 705934905,
+  "sha256": "0b27a559cda9ecd0c85ed285c5662e031e2558d54b223298178864670369cec7",
+  "checks": {
+    "launcherTests": 83,
+    "packagedSourceFiles": 37,
+    "officialRuntimeFiles": 248,
+    "faceFiles": 15,
+    "voiceAssets": 15,
+    "packagedSourceMatches": true,
+    "packagedNativeHelpersMatch": true,
+    "installerArchive": true,
+    "updateSignature": true,
+    "packagedUi": true,
+    "uiLanguages": [
+      "en",
+      "th"
+    ],
+    "defaultLanguage": "en",
+    "viewports": [
+      "1200x790",
+      "1000x680"
+    ],
+    "actualButtonDownload": true,
+    "actualButtonInstall": true,
+    "actualHealthReceipt": true,
+    "installedVersion": "0.7.9",
+    "settingsPreserved": true,
+    "localhostModePreserved": true,
+    "actualArcaneMPUpdate": {
+      "from": "1.14.0",
+      "to": "1.15.1",
+      "verifiedFiles": 248
+    }
+  },
+  "bootstrapNote": "Original older builds failed Preview discovery and/or Windows worker startup. Installed older versions were minimally bootstrapped with backups for the real button test; this is not a claim that unmodified old builds self-update. Unmodified builds through 0.7.8 should manually install this release once.",
+  "limitations": [
+    "Real game-session and microphone validation are separate from these update checks.",
+    "Official confirmation prompts remain visible; progress-only windows are integrated."
+  ],
+  "createdAt": "2026-11-20T18:14:47.849Z"
+}
