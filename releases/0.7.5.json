@@ -1,0 +1,45 @@
+{
+  "version": "0.7.5",
+  "channel": "prerelease",
+  "installer": "Lumos-Electron-Setup-0.7.5.exe",
+  "bytes": 705927309,
+  "sha256": "db138cab0ddd992c9fb97a6f1307c5d23166d657562aa7a926dae80886a4e8c5",
+  "releaseUrl": "https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.7.5",
+  "checks": {
+    "launcherTests": 74,
+    "officialRuntimeFiles": 248,
+    "faceFiles": 15,
+    "voiceAssets": 15,
+    "packagedSourceFiles": 36,
+    "packagedSourceMatches": true,
+    "updateSignature": true,
+    "installerArchive": true,
+    "packagedUi": true,
+    "uiLanguages": [
+      "en",
+      "th"
+    ],
+    "defaultLanguage": "en",
+    "viewports": [
+      "1200x790",
+      "1000x680"
+    ],
+    "nativeWindowFixture": true,
+    "designReview": "All three material findings resolved; ship at reviewed-capture scope"
+  },
+  "features": [
+    "Midnight and antique gold redesign with top navigation",
+    "Persistent EN/TH selection, English default",
+    "Integrated official ArcaneMP update progress and scoped progress-window hiding",
+    "Hide to tray after Play; return after session monitoring",
+    "Exit and Restart game with fresh ticket and file restoration",
+    "Official runtime version display follows completed updates"
+  ],
+  "limitations": [
+    "Real game session and live official updater integration still need end-to-end validation",
+    "Automatic installed NSIS updater/health receipt remains pending",
+    "Real microphone test remains pending",
+    "Interface language does not change the existing speech model"
+  ],
+  "createdAt": "2026-11-20T17:07:03.3938385Z"
+}
