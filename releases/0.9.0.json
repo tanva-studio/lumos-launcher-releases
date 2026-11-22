@@ -1,0 +1,33 @@
+{
+  "version": "0.9.0",
+  "channel": "preview",
+  "installer": "Lumos-Electron-Setup-0.9.0.exe",
+  "installerBytes": 313965953,
+  "sha256": "f0f4022359086a28c71fe09d111d86da5b72562ed4e4ab36b0e6f04c080b48e8",
+  "validation": {
+    "launcherTestsPassed": 105,
+    "gateTestsPassed": 8,
+    "packagedSourceFilesMatched": 44,
+    "officialRuntimeFilesVerified": 248,
+    "bundledRuntimeVersion": "1.14.0",
+    "voiceEngineAssetsVerified": 13,
+    "nativeHelpersVerified": 4,
+    "speechModelsBundled": false,
+    "installerCrc": true,
+    "ed25519UpdateEnvelope": true,
+    "packagedUiSizes": [[1200, 790], [1000, 680]],
+    "productionPackRevision": 8,
+    "productionPackFilesVerified": 3,
+    "productionPackBytesVerified": 65597405,
+    "productionHttpRangeStatus": 206,
+    "admissionRequired": true,
+    "realBaseModelDownloadVerified": true,
+    "realWhisperEngineWithSyntheticSpeech": true
+  },
+  "authenticode": "NotSigned: no certificate provisioned",
+  "pendingValidation": [
+    "Installed upgrade to 0.9.0",
+    "New end-to-end in-game session on 0.9.0",
+    "Live user microphone speech on 0.9.0"
+  ]
+}
