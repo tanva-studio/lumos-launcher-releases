@@ -1,0 +1,40 @@
+{
+  "version": "0.9.7",
+  "channel": "preview",
+  "assets": {
+    "Lumos-Electron-Setup-0.9.7.exe": {
+      "bytes": 353837417,
+      "sha256": "ee70c15da7e36df136754d3847f9181b5c9a21cce7e955041b2bf6835bdab200"
+    },
+    "lumos-update.json": {
+      "bytes": 1051,
+      "sha256": "68bcff164705f0157325ff10a09905e527357abfacc3d7b41ba2f7efb560a294"
+    },
+    "Lumos-Offline-0.9.7-Windows-x64.zip.001": {
+      "bytes": 2000000000,
+      "sha256": "fa25b2e7534f9f7d2d697756bb269085aae358ebb390e96200903367f8e7619b"
+    },
+    "Lumos-Offline-0.9.7-Windows-x64.zip.002": {
+      "bytes": 1950403396,
+      "sha256": "5842695cccb820491e76b152b4cede71e3bac504fd3514e38e556231a49e44a2"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 500,
+      "sha256": "d969926cb821a739d38ac1ec027a25a20a065968b8404e4e6a4aa7479413076f"
+    }
+  },
+  "validation": {
+    "launcherTestsPassed": 111,
+    "packagedSourceFilesMatched": 52,
+    "officialRuntimeFilesVerified": 248,
+    "nativeHelpersVerified": 4,
+    "bundledRuntimeVersion": "1.14.0",
+    "offlineModelFilesVerified": 8,
+    "liveThaiTranscriptionWithSimulatedMicrophone": [
+      "int8",
+      "fp32"
+    ],
+    "ed25519UpdateEnvelope": true,
+    "authenticodeSigned": false
+  }
+}
