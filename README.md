@@ -4,33 +4,17 @@ Official Windows installers and signed update manifests for Lumos Project SRP.
 
 ## Current preview
 
-[Download Lumos Launcher 0.9.7](https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.9.7)
+[Download Lumos Launcher 0.9.9 for Windows x64](https://github.com/tanva-studio/lumos-launcher-releases/releases/download/v0.9.9/Lumos-Electron-Setup-0.9.9.exe) (333 MB). Close the game and run the installer to upgrade.
 
-Close the game before updating. Users of 0.7.8 or earlier should install this preview manually once. Versions through 0.7.5 cannot discover Preview releases; 0.7.6 through 0.7.8 have a superseded Windows installer handoff. Newer builds use the Preview feed with signed manifests and installer SHA-256 verification. Preview releases do not become stable releases implicitly.
+Version 0.9.9 is a manual download. The in-app updater requires a signed update manifest. [Release notes](https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.9.9) · [File size and SHA-256](releases/0.9.9.json).
 
-### New in 0.9.7
+### Changes in 0.9.9
 
-- See Thai speech appear while holding the talk key. Releasing the key confirms the final transcript for chat, spells, or doors. Chat waits for the player to send the draft. In-game previews require the matching SRP server resources.
-- The standalone Windows installer fetches missing OpenThai models. For an offline installation, download both parts of the Windows x64 ZIP into one folder, extract the first part with 7-Zip, and run Setup beside the extracted OpenThai folder. The package includes INT8 and FP32.
-- One press of **Settings > Update Launcher** checks the Preview feed and installs an available verified release. Lumos reuses installed models.
+- The home screen groups server status and the Play button. Settings, navigation and the loading screen share the same layout and theme.
+- Check for Lumos and ArcaneMP updates with one action. The launcher can notify players about new signed Lumos releases and newer ArcaneMP versions reported by their server.
+- Thai speech recognition runs on the selected SRP server. Players can hear their microphone before joining and test Thai transcription in a paired game session.
 
-### ArcaneMP and Lumos updates
-
-Use Home > ArcaneMP version > Check for updates, or Game Files > Update ArcaneMP. Accept the official update prompt when offered. Lumos displays official progress and refreshes the runtime version after completion. Play updates an outdated runtime before requesting a fresh single-use admission ticket and rechecks server compatibility.
-
-The official ArcaneMP launcher, updater and DLLs are unmodified. The bundled runtime is 1.14.0. Migration preserves a newer verified installed runtime; client and server still need compatible versions. The removed ArcaneMP Thai-menu patch is not included.
-
-For Lumos, use Settings > Update Launcher. The installer worker keeps settings and localhost mode, backs up the old launcher and requires a version/nonce health receipt.
-
-The EN/TH interface defaults to English and remembers the selection. Play hides Lumos to the tray; it returns after the monitored session ends. Exit game and Restart game use scoped cleanup, and Restart requests a fresh ticket. Speech processing stays local.
-
-### Validation and preview limits
-
-[Validation and SHA-256](releases/0.9.7.json)
-
-The launcher passed 111 tests. Thai audio played through a simulated microphone on Windows produced live previews and a final transcript in both modes. The offline package, all eight model files, the packaged application and the signed update manifest were verified.
-
-A physical microphone inside a live game and an installed upgrade from a previous production release remain unverified. The Windows installer has no Authenticode signature. Lumos verifies the Ed25519 update manifest and installer SHA-256.
+The Windows installer is Authenticode-unsigned. The release assets include SHA256SUMS.txt for verifying the download.
 
 ## Attribution
 

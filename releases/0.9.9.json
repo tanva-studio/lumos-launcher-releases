@@ -1,0 +1,23 @@
+{
+  "version": "0.9.9",
+  "channel": "preview",
+  "installation": "manual",
+  "assets": {
+    "Lumos-Electron-Setup-0.9.9.exe": {
+      "bytes": 332953557,
+      "sha256": "6b13a1522dd97bfc27df3b5ce41fcd2b2d881452484d256fefc8c62fd99f7e38"
+    },
+    "SHA256SUMS.txt": {
+      "bytes": 98,
+      "sha256": "ff03758ad2feca06e95f82edea0d3163185faf4099f20af8621ecc5ea28548bd"
+    }
+  },
+  "validation": {
+    "launcherTestsPassed": 116,
+    "bundledVoiceModels": 0,
+    "officialRuntimeFilesVerified": 248,
+    "bundledRuntimeVersion": "1.14.0",
+    "ed25519UpdateEnvelope": false,
+    "authenticodeSigned": false
+  }
+}
