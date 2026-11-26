@@ -4,15 +4,13 @@ Official Windows installers and signed update manifests for Lumos Project SRP.
 
 ## Current preview
 
-[Download Lumos Launcher 0.9.9 for Windows x64](https://github.com/tanva-studio/lumos-launcher-releases/releases/download/v0.9.9/Lumos-Electron-Setup-0.9.9.exe) (333 MB). Close the game and run the installer to upgrade.
+[Download Lumos Launcher 0.9.10 for Windows x64](https://github.com/tanva-studio/lumos-launcher-releases/releases/download/v0.9.10/Lumos-Electron-Setup-0.9.10.exe) (309 MB). Close the game and run the installer to upgrade.
 
-Version 0.9.9 is a manual download. The in-app updater requires a signed update manifest. [Release notes](https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.9.9) · [File size and SHA-256](releases/0.9.9.json).
+Version 0.9.10 is a manual download. [Release notes](https://github.com/tanva-studio/lumos-launcher-releases/releases/tag/v0.9.10) · [File size and SHA-256](releases/0.9.10.json).
 
-### Changes in 0.9.9
+### Changes in 0.9.10
 
-- The home screen groups server status and the Play button. Settings, navigation and the loading screen share the same layout and theme.
-- Check for Lumos and ArcaneMP updates with one action. The launcher can notify players about new signed Lumos releases and newer ArcaneMP versions reported by their server.
-- Thai speech recognition runs on the selected SRP server. Players can hear their microphone before joining and test Thai transcription in a paired game session.
+The launcher now connects to the game at `16.5.44.44:27015` and requests admission tickets from `https://16.5.44.44:27016/`.
 
 The Windows installer is Authenticode-unsigned. The release assets include SHA256SUMS.txt for verifying the download.
 
